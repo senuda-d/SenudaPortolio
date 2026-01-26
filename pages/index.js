@@ -2,8 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import { site } from "../data/siteData";
 import styles from "../styles/Home.module.css";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram,FaGlobe } from "react-icons/fa";
 import SideGifs from "../components/sideGifs"
+
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         />
 
         <h1 className={styles.name}>{site.name}</h1>
-        <p className={styles.tagline}>{site.tagline}</p>
+        
 
 
         <section className={styles.contactSection}>
@@ -54,7 +55,7 @@ export default function Home() {
 
           {/*  city name */}
           {site.location && (
-            <p className={styles.locationText}>
+            <p className={styles.locationText} >
               <a
                 href={`https://www.google.com/maps/place/${encodeURIComponent(
                   site.location
@@ -63,6 +64,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className={styles.locationLink}
               >
+                <FaGlobe className={styles.locationIcon} />
                 {site.location}
               </a>
             </p>
@@ -99,7 +101,8 @@ export default function Home() {
         </section>
 
         {/* projects section */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl w-full">
+        <div className={styles.projectsGrid}>
+          <h2 className={styles.projectitle}>Github projects</h2>
           {site.projects.map((proj, i) => (
             <a key={i} href={proj.link} target="_blank" className={styles.projectCard}>
               <h3>{proj.title}</h3>
