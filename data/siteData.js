@@ -1,7 +1,6 @@
 export const site = {
   name: "Senuda",
-  tagline: "Aspiring IT Developer",
-  about: "Howdy people!. I'm Senuda,an udergraduate in information technology intreseted in dealing with bugs and stuff (;",
+  about: "Howdy people!. I'm Senuda.I don’t just write code,I build experiences.Love crafting digital products that feel smooth, fast, and modern.(;",
   
   links: {
     github: "https://github.com/SDil1",
@@ -16,29 +15,27 @@ export const site = {
   ],
 
   skills: [
-    "HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Node.js", "Git"
+    "Java", "C#", "JavaScript", "React",,"HTML", "javascript", "Typescript" ,"CSS", "Python.js", "PHP","Git","SQL",
   ],
 
   education: [
     {
-      degree: "BSc in Computer Science",
+      degree: "BSc in Information Technology",
       school: "SLIIT University",
-      year: "2022 - 2026"
+      year: "2023 - 2028"
     },
     {
       degree: "High School Diploma",
-      school: "Royal College Colombo",
-      year: "2018 - 2021"
+      school: " Sri Dharmaloka college",
+      year: "2021 - 2023"
     }
   ],
 
   highlights: [
-    "3+ years of industry experience",
-    "Won some hackathons, eg. IEEEXtreme 16.0, Minihackathon + more",
-    "President | SLIIT FOSS Community",
-    "Ex-President | Mozilla Campus Club of SLIIT & SLIIT Gavel Club",
-    "Final Year Undergraduate @ SLIIT",
-    "Huge Pokémon fan!"
+    "Member | SLIIT Rotaract club",
+    "Member | SLIIT Gavel club ",
+    "Second Year Undergraduate @ SLIIT",
+    "I Love surfing!!"
   ]
 
 

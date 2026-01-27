@@ -83,6 +83,9 @@
     flex-wrap: wrap;
     align-content: left;
     gap: 1rem;
+    margin-right: 100px;
+    position: relative;
+    left: 50px;
 }
 
 .skillItem {
@@ -95,6 +98,8 @@
     font-weight: 500;
     font-size: 0.875rem;
     transition: transform 0.2s, box-shadow 0.2s;
+    
+    
 }
 
 .skillItem:hover {
@@ -370,4 +375,87 @@
     position: relative;
     top: -30px;
     left: -30px;
+}
+
+/* improving the responsiveness */
+
+/* 🔥 Mobile & Tablet Responsive Fix */
+@media (max-width: 1024px) {
+
+  .profileImage {
+    margin-left: 0;
+  }
+
+  .name {
+    margin-right: 0;
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .about {
+    margin-right: 0;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .skillsTitle {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .skillsList {
+    justify-content: center;
+  }
+
+  .educationSection {
+    right: 0;
+  }
+
+  .educationTitle {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .highlightsList {
+    margin-right: 0;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .highlightItem {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .contactSection {
+    margin-right: 0;
+    margin-top: 3rem;
+  }
+
+  .locationText {
+    margin-top: 1rem;
+  }
+
+  .locationIcon {
+    left: 0;
+    top: 0;
+  }
+
+  .projectitle {
+    left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .projectsGrid {
+    margin-left: 0;
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+
+  .projectCard {
+    left: 0;
+    top: 0;
+  }
 }
