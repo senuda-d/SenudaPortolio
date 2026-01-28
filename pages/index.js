@@ -12,8 +12,12 @@ export default function Home() {
 
       {/* site name */}
       <Head>
-        <title>{`${site.name} | ${site.tagline}`}</title>
-
+        <title>
+          {`${site.name} | ${site.tagline}`}
+          
+          </title>
+        
+        <link rel="icon" href="/icon.png" />
         <meta name="description" content={site.about} />
       </Head>
 
