@@ -95,12 +95,14 @@ export default function Home() {
         {/* skills section */}
         <section className={styles.skillsSection}>
           <h2 className={styles.skillsTitle}>Skills</h2>
-          <div className={styles.skillsList}>
-            {site.skills.map((skill, i) => (
-              <div key={i} className={styles.skillItem}>
-                {skill}
-              </div>
-            ))}
+          <div className={styles.skillsContainer}>
+            <div className={styles.skillsList}>
+              {site.skills.map((skill, i) => (
+                <div key={i} className={styles.skillItem}>
+                  {skill}
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 

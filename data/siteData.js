@@ -19,7 +19,7 @@ export const site = {
   ],
 
   skills: [
-    "Java", "C#", "JavaScript", "React", , "HTML", "javascript", "Typescript", "CSS", "Python.js", "PHP", "Git", "SQL",
+    "Java", "C#", "JavaScript", "React", , "HTML", "TypeScript", "CSS", "Python", "PHP", "Git", "SQL",
   ],
 
   education: [
