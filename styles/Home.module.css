@@ -66,7 +66,6 @@
 
 /* Skills Section */
 .skillsSection {
-    max-width: 4xl;
     margin-top: 4rem;
     text-align: center;
 }
@@ -401,13 +400,22 @@
     font-size: 1.1rem;
   }
 
+
   .skillsTitle {
     margin-right: 0;
     text-align: center;
   }
 
+  .skillsContainer{
+    display: flex;
+    align-items: center;
+  }
+
   .skillsList {
     justify-content: center;
+    margin-right: 0px;
+    position: relative;
+    left: 0px;
   }
 
   .educationSection {

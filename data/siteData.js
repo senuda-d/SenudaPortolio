@@ -3,7 +3,7 @@ export const site = {
   about: "Howdy people!. I'm Senuda.I don’t just write code,I build experiences.Love crafting digital products that feel smooth, fast, and modern.(;",
 
   links: {
-    github: "https://github.com/senuda-d",
+    github: "https://github.com/SDil1",
     linkedin: "https://www.linkedin.com/in/senudadilvan/",
     instagram: "https://www.instagram.com/theone_dil1/",
     email: "senuda@example.com"
